@@ -1,0 +1,87 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+.list{
+    margin:20px;
+    line-height:35px;
+    font-weight:bold;
+    font-size:25px;
+    color:rgb(5, 12, 109);
+    height:55%;
+}
+
+
+body{
+    display :flex;
+    justify-content:center;
+    background-color:rgb(245, 233, 146)
+    
+    
+}
+
+.todo-container{
+  margin-left:100px;
+}
+
+h1{
+                  
+  color:rgb(228, 22, 22);
+    margin-top:30px;
+    font-size:45px;
+  }
+
+  input{
+    height:50px;
+    width:230px;
+    padding-left:20px;
+    border-radius:15px;
+    border:solid 3px rgb(226, 50, 15);
+    font-size:26px;
+    font-Weight:bold;
+    color:black;
+  
+  }
+
+  .btn{
+    margin-top:30px;
+    height:35px;
+    width:80px;
+    border-radius:15px;
+    font-weight:bold;
+    font-size:14px;
+    background-color: chartreuse;
+    cursor:pointer;
+    color:black;
+    border:solid 1px brown;
+    margin-left:5px;
+  }
+
+  
+  .main_todo_list{
+    display:flex;
+    margin-top:10px;
+    gap:20px;
+   }
+   .in{
+    font-size:30px;
+    width:220px;
+  }
+
+  .deletBtn{
+    height:30px;
+    width:60px;
+    border-radius:15px;
+    font-weight:bold;
+    font-size:14px;
+    cursor:pointer;
+    color:aqua;
+    border:none;
+    margin-left:5px;
+     background-color: brown;
+  }
+
+  .in{
+    list-style-type:none !important;
+  }
